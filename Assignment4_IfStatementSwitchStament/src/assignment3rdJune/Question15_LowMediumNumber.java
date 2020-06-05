@@ -3,7 +3,7 @@ package assignment3rdJune;
 public class Question15_LowMediumNumber {
 
 	public static void main(String[] args) {
-		
+		//deneme
 		int i=3;
 		
 		switch (i) {
