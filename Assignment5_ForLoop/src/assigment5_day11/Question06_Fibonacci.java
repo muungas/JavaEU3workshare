@@ -12,11 +12,15 @@ public class Question06_Fibonacci {
 		int a=0;
 		int b=1;
 		int c=0;
-		System.out.println(a+", "+b+", ");
+		int d=0;
+		System.out.print(a+", "+b+", ");
 		
 		for (int i = 0; i < n; i++) {
 			c=a+b;
-			System.out.println(0);
+			d=c+b;
+			a=c;
+			b=d;
+			System.out.print(c+", "+d+", ");
 			
 		}
 
